@@ -1,25 +1,18 @@
-# Controller_for_Nonlinear-system
+# Controller for Nonlinear System
 
-Tasks completed in this Project:
--In this project we calculate the equations of motion for a nonlinear system of crane and two pendulums using Euler-Lagrange method.
--As the system is non-linear, we linearize it using Jacobian Linearization around an equilibrium point. State-space representation of the linearized system is given.
--Then the conditions on M, 𝑚1, 𝑚2 ,𝑙1,𝑙2 are obtained for the linearized system to be controllable.
--For specific values of M, 𝑚1, 𝑚2 ,𝑙1,𝑙2 we checked the controllability of the system. Designed an LQR controller to control the system, 
- obtained the response of both linearized and original nonlinear system to initial conditions. 
- The stability of the close loop system is checked using Lyapunov’s indirect method.
--For given set of output vector, determined for which vectors the linearized system is observable.
--Optimal Luenberger observer is obtained for each output vector for which the system is observable and 
- simulated its response for both linearized and original systemsto initial conditions and unit step input.
--Designed an output feedback controller for the smallest output vector. 
- Used the LQG method to apply the resulting output feedback controller to the original nonlinear system.
- 
- # MATLAB:
- 
-The MATLAB package includes the Matlab codes developed for the Project Simulations
+This repository contains the code and files for the design of a controller for a nonlinear system consisting of a crane and two pendulums. The project involves calculating the equations of motion for the system using the Euler-Lagrange method and linearizing it using Jacobian Linearization around an equilibrium point.
 
-Steps to run the project on your device:
+The state-space representation of the linearized system is given and the conditions for controllability of the linearized system are obtained. The controllability of the system is checked for specific values of the system's parameters, and an LQR controller is designed to control the system. The response of both the linearized and original nonlinear system to initial conditions is obtained, and the stability of the closed-loop system is checked using Lyapunov’s indirect method.
 
-Step 1 : Load the respective Matlab (.m ) file in the matlab environment
-Step 2 : Run the file to observe the output of the files
+Additionally, the observability of the linearized system is determined for a given set of output vectors, and an optimal Luenberger observer is obtained for each observable output vector. The response of both the linearized and original systems to initial conditions and unit step input is simulated for the observer. An output feedback controller is also designed for the smallest output vector using the LQG method and applied to the original nonlinear system.
 
- 
+# MATLAB Code
+The MATLAB folder contains the MATLAB code developed for the project simulations.
+
+# Instructions
+To run the project on your device, follow these steps:
+Load the respective MATLAB (.m ) file in the MATLAB environment
+
+Run the file to observe the output of the files
+
+The README.md file contains additional information on the project and the files included in this repository.
